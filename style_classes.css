@@ -31,4 +31,14 @@ p{
 a{
     text-decoration: none;
     font-variant: normal;
+    color: black;
+    font-weight: bold;
+}
+
+.destaque{
+    color: crimson;
+}
+
+#destac{
+    color: darkorange;
 }
