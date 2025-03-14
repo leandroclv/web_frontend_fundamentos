@@ -1,0 +1,16 @@
+h1{
+    color: blue;
+    text-align: center;
+    background-color: aqua;
+}
+
+h2{
+    color:rgb(7, 7, 138);
+    background-color: rgba(128, 128, 128, 0.308);
+    padding: 3px;
+    margin: 0;
+}
+
+.dados{
+    text-align: center;
+}
