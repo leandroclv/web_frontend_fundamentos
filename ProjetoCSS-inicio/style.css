@@ -1,0 +1,100 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+}
+
+.hero{
+    background-image: url(./imagens/bg-3.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: right center;
+    color: white;
+    padding: 1px;
+}
+
+.hero-content{
+    margin: 90px auto 0;
+    width: 80%;
+    text-align: center;
+}
+
+.hero-content h1{
+    font-size: 50px;
+    text-shadow: 2px 2px 2px black;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.hero-content p{
+    background-color: rgba(0, 0, 0, 0.7); /* Foi usado a rgba por causa da transparência */
+    font-size: 18px;
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 2px solid;
+}
+
+.hero nav ul{ /* o text-align é colocado aqui por ser o elemento pai de todas as lis*/
+    margin: 20px 30px 0 0;
+    text-align: right;
+}
+
+.hero nav li{
+    display: inline-block;
+    list-style-type: none;
+    border: 1px solid white;
+    margin-left: 15px;
+}
+
+.hero nav a{
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 16px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.hero nav a:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    max-width: 860px;
+}
+
+article{
+    background-color: white;
+    padding: 16px;
+    margin-bottom: 32px; /* separa as caixas*/
+    margin-top: 32px;/* as margens não se somam e sim se sobreponham*/
+}
+
+article h2{
+    border-bottom: 2px solid #ccc;
+    background-color: #eee;
+    padding: 10px;
+    margin-top: 0px;
+}
+
+.btn{
+    background-color: #cdc7c3;
+    display: block;
+    padding: 12px;
+    border-radius: 6px;
+    margin-left: auto;
+    width: fit-content;
+}
+
+.rodape{
+    color: white;
+    background-color: #6b6c68;
+    text-align: center;
+    padding: 30px;
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 2px;
+}
