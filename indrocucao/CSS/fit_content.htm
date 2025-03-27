@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>float_clear</title>
+    <style>
+        .container{
+            border: 2px solid black;
+            padding: 16px;
+            width: 300px;
+            margin-bottom: 16px;
+        }
+
+        .item{
+            background-color: blueviolet;
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+
+        .fit-content .item{
+            width: fit-content;
+        }
+
+        .min-content .item{
+            width: min-content;
+        }
+
+        .max-content .item{
+            width: max-content;
+        }
+    </style>
+</head>
+<body>
+    <div class="container fit-content">
+        <div class="item">lorem</div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae, esse?</div>
+        <div class="item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat soluta alias dolorem est? Perspiciatis veniam assumenda reiciendis ipsam culpa? Provident.</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam earum labore cum aliquid atque repellat, at odit, rem repellendus porro reiciendis doloremque error nesciunt. Provident quasi doloribus nihil repellat similique corrupti saepe ratione, architecto cupiditate enim officia distinctio commodi neque voluptatum minus nisi molestiae non qui. Temporibus veniam tempora, nam minus esse rem repudiandae reprehenderit iste odio voluptates explicabo, deserunt dolor sunt accusamus quia qui voluptas, perspiciatis veritatis fugiat at velit quos?</div>
+    </div>
+    <div class="container min-content">
+        <div class="item">lorem</div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae, esse?</div>
+        <div class="item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat soluta alias dolorem est? Perspiciatis veniam assumenda reiciendis ipsam culpa? Provident.</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam earum labore cum aliquid atque repellat, at odit, rem repellendus porro reiciendis doloremque error nesciunt. Provident quasi doloribus nihil repellat similique corrupti saepe ratione, architecto cupiditate enim officia distinctio commodi neque voluptatum minus nisi molestiae non qui. Temporibus veniam tempora, nam minus esse rem repudiandae reprehenderit iste odio voluptates explicabo, deserunt dolor sunt accusamus quia qui voluptas, perspiciatis veritatis fugiat at velit quos?</div>
+    </div>
+    <div class="container max-content">
+        <div class="item">lorem</div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae, esse?</div>
+        <div class="item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat soluta alias dolorem est? Perspiciatis veniam assumenda reiciendis ipsam culpa? Provident.</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam earum labore cum aliquid atque repellat, at odit, rem repellendus porro reiciendis doloremque error nesciunt. Provident quasi doloribus nihil repellat similique corrupti saepe ratione, architecto cupiditate enim officia distinctio commodi neque voluptatum minus nisi molestiae non qui. Temporibus veniam tempora, nam minus esse rem repudiandae reprehenderit iste odio voluptates explicabo, deserunt dolor sunt accusamus quia qui voluptas, perspiciatis veritatis fugiat at velit quos?</div>
+    </div>
+</body>
+</html>
